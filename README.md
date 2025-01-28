@@ -1,86 +1,78 @@
-# Real-Time-Competitior-strategy-tracker-for-E-commerce
 
-## Project Overview
-This project provides e-commerce businesses with actionable insights by monitoring competitor pricing, discount strategies, and customer sentiment in real time. The solution leverages advanced machine learning, natural language processing, and seamless integration with Slack for notifications.
+# **Real-Time Competitor Strategy Tracker for E-Commerce**
 
-### Key Features
-- **Competitor Data Aggregation**: Track competitor pricing and discount strategies.
-- **Sentiment Analysis**: Analyze customer reviews for actionable insights using Hugging Face Transformers and Groq.
-- **Predictive Modeling**: Forecast competitor behavior using ARIMA models.
-- **Slack Integration**: Receive real-time notifications about competitor activity.
-
----
-
-## Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd <repository-directory>
-
-
-Real-Time Competitor Strategy Tracker for E-Commerce
-Project Overview
+**Project Overview**
 
 This project focuses on creating a real-time competitive intelligence tool for e-commerce businesses. It provides actionable insights by monitoring competitor pricing, discount strategies, and customer sentiment. The solution leverages:
 
-Machine Learning: Predictive modeling with ARIMA.
-LLMs: Sentiment analysis using Hugging Face Transformers and Groq.
-Integration: Slack notifications for real-time updates.
-Features
+*   Machine Learning: Predictive modeling with ARIMA.
+*   LLMs: Sentiment analysis using Hugging Face Transformers and Groq.
+*   Integration: Slack notifications for real-time updates.
 
-Competitor Data Aggregation: Track pricing and discount strategies.
-Sentiment Analysis: Analyze customer reviews for actionable insights.
-Predictive Modeling: Forecast competitor
-Slack Integration: Get real-time notifications on competitor activity.
-Setup Instructions
-1.Clone the repository
+**Features**
+
+1.   Competitor Data Aggregation: Track pricing and discount strategies.
+2.   Sentiment Analysis: Analyze customer reviews for actionable insights.
+3.   Predictive Modeling: Forecast competitor
+4. Slack Integration: Get real-time notifications on competitor activity.  
+
+# **Setup Instructions**
+
+**1.Clone the repository**
 
 
-[ ]
 git clone <repository-url>
 cd <repository-directory>
-2.Install Dependencies
+
+
+**2.Install Dependencies**
 
 Install the required Python libraries using pip:
 
-
-[ ]
 pip install .r requirements.txt
-3.Configure API Keys
+
+**3.Configure API Keys**
 
 This project requires the following keys:
 
-Groq API Key: For generating strategic redcommendations.
-Slack Webhook URL: For sending notifications.
-Steps:
+*   **Groq API Key:** For generating strategic redcommendations.
+*   **Slack Webhook URL:** For sending notifications.
+  
+**Steps:**
 
-Groq API Key:
-sign up for a Groq account at https://groq.com.
-Obtain your API Key from the Groq dashboard.
-Use the API Key in the app.py file.
-Slack Webhook Integration:
-Go to the Slack API.
-Create a new app and enable incoming webhooks.
-Add a webhook to a channel and copy the generated URL.
-Add this to URL to the app.py file.
-4.Run the Application
+1.  **Groq API Key:**
+   
+*   sign up for a Groq account at https://groq.com.
+*   Obtain your API Key from the Groq dashboard.
+*   Use the API Key in the app.py file.
+
+2.   **Slack Webhook Integration:**
+   
+*   Go to the Slack API.
+*   Create a new app and enable incoming webhooks.
+*   Add a webhook to a channel and copy the generated URL.
+*   Add this to URL to the app.py file.
+
+**4.Run the Application**
 
 Run the Streamlit app:
 
-
-[ ]
 streamlit run app.py
-Project Files
-app.py: Main application script.
-scrape.py: Script for web scraping competitor data.
-review.csv: Sample reviews data for sentiment analysis.
-competitor_data.csv: Sample competitor data for analysis.
-Usage
-Launch the Steamlit app.
-Select a product from the sidebar.
-View competitor analysis, sentiment trends, and discount forecasts.
-Get strategic recommendations and real-time Slack notifications.
-License
-This project is licensed by MIT License.
 
+# **Project Files**
+
+*   **app.py:** Main application script.
+*   **scrape.py:** Script for web scraping competitor data.
+*   **review.csv:** Sample reviews data for sentiment analysis.
+*   **competitor_data.csv:** Sample competitor data for analysis.
+
+# **Usage**
+
+1. Launch the Steamlit app.  
+2. Select a product from the sidebar.
+3. View competitor analysis, sentiment trends, and discount forecasts.
+4. Get strategic recommendations and real-time Slack notifications.
+
+# **License**
+
+This project is licensed by MIT License.
