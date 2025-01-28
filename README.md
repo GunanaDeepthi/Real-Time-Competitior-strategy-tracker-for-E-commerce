@@ -18,6 +18,7 @@ This project provides e-commerce businesses with actionable insights by monitori
 git clone <repository-url>
 cd <repository-directory>
 
+
 Real-Time Competitor Strategy Tracker for E-Commerce
 Project Overview
 
