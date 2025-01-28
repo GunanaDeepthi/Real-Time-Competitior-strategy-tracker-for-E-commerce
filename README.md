@@ -1,4 +1,23 @@
 # Real-Time-Competitior-strategy-tracker-for-E-commerce
+
+## Project Overview
+This project provides e-commerce businesses with actionable insights by monitoring competitor pricing, discount strategies, and customer sentiment in real time. The solution leverages advanced machine learning, natural language processing, and seamless integration with Slack for notifications.
+
+### Key Features
+- **Competitor Data Aggregation**: Track competitor pricing and discount strategies.
+- **Sentiment Analysis**: Analyze customer reviews for actionable insights using Hugging Face Transformers and Groq.
+- **Predictive Modeling**: Forecast competitor behavior using ARIMA models.
+- **Slack Integration**: Receive real-time notifications about competitor activity.
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone <repository-url>
+cd <repository-directory>
+
 Real-Time Competitor Strategy Tracker for E-Commerce
 Project Overview
 
