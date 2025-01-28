@@ -1,0 +1,1 @@
+# Real-Time-Competitior-strategy-tracker-for-E-commerce
